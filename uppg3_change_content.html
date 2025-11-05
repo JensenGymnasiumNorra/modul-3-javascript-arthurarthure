@@ -11,13 +11,29 @@
     </style>
   </head>
   <body>
-    <button onclick="showCarbonara()">Show carbonara ingredients</button>
-    <button onclick="showPizza()">Show pizza ingredients</button>
+
+    <button onclick="ShowCarbonara()">Show carbonara ingredients</button>
+    <button onclick="ShowPizza()">Show pizza ingredients</button>
+
+
+
 
     <div id="ingredients"></div>
 
     <script>
       // TODO: Skapa funktionerna showCarbonara() och showPizza() för att visa ingredienserna för respektive recept i diven ingredients
+
+      function ShowCarbonara() {
+        document.getElementById("ingredients").innerHTML = " 100g pancetta 50g pecorino cheese 50g parmesan 3 large eggs 350g spaghetti 2 plump garlic cloves peeled and left whole 50g unsalted butter sea salt and freshly ground black pepper";
+    }
+
+    function ShowPizza() {
+      document.getElementById("ingredients").innerHTML = "Jäst 25 g Ljummet vatten max 37° 2½ dl Arla Köket® Smör- & rapsolja Arla Köket® Smör- & rapsolja 2 msk Salt ½ tsk Vetemjöl 7 dl Fyllning: Tomatsås för pizza eller pasta 2 dl Arla Köket® Riven ost pizza Arla Köket® Riven ost pizza 6 dl Rödlök 1 Färska champinjoner 100 g Salami i skivor 150 g Rökt skinka i skivor 150 g Torkad oregano 2 tsk Färska örter, till garnering";
+    }
+
+
+
+
     </script>
   </body>
 </html>
