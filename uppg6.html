@@ -14,10 +14,16 @@
     <title>Simple Calculator Example</title>
   </head>
   <body>
-    <input type="text" id="num1" placeholder="Enter number 1" />
-    <input type="text" id="num2" placeholder="Enter number 2" />
+
+
+   <input type="range" id="num1" min="0" max="100" oninput="updateValue1()" />
+   <input type="range" id="num2" min="0" max="100" oninput="updateValue2()" /> 
+
     <br /><br />
     <button onclick="calculateSum()">+</button>
+      <button onclick="calculateDifference()">-</button>
+          <button onclick="calculateDiv()">/</button>
+              <button onclick="calculateFactor()">*</button>
 
     <p id="result">Result:</p>
   </body>
