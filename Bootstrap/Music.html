@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <style>
+      .row {
+        border-radius: 8px;
+        padding: 2%; 
+        margin: 2%;
+        border: 2px solid #000000;
+        background-color: rgb(27, 27, 27);
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(110, 130, 146);
+        
+      } 
+
+      .col img {
+        border-radius: 200px;
+        padding: 5%;
+        
+        text-align: center;
+        transition: 250ms ease-in-out; 
+        filter: blur(1px) saturate(1);
+        opacity: 75%;
+        
+        
+      }
+      .col img:hover {
+        transform: scale(1.10);
+        filter: blur(0px);
+        border-radius: 55px;
+        cursor: pointer;
+        opacity: 100%;
+      }
+
+      .col {
+        border-radius: 8px;
+        
+        border: 2px solid #272727;
+        width: auto;
+        height: auto;
+        display: block;
+        
+        text-align: center;  
+
+      }
+      
+
+      
+    </style>
+  </head>
+ 
+  <body>
+
+    <header>
+
+    </header>
+
+    <br><br><br>
+
+    <h2 style="text-align:center">Michael Jackson</h2>
+
+    <br><br>
+    
+  <div class="container text-center ">
+  <div class="row">
+
+    <br><br>
+
+    <div class="col">
+      <a href="https://sv.wikipedia.org/wiki/Michael_Jackson" target="_blank">
+      <img src="Michael Jackson.jpg" alt="Michael Jackson" width="400px" height="400px"/>
+      </a>
+      <p class="mt-3">Michael Jackson</p>
+      
+    </div>
+
+    <div class="col">
+      <a href="https://open.spotify.com/album/3Us57CjssWnHjTUIXBuIeH?si=zg4QI-gWQYGEsmzavJ9jKg" target="_blank">
+      <img src="BAD.png" alt="The Album BAD by Michael Jackson" width="400px" height="400px"/>
+      </a>
+       <p class="mt-3">My fav Album of his</p>
+    </div>
+
+  </div>
+
+  
+
+  </div>
+</div>
+
+    
+    
+  </body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="Perm.js"></script>
+</html>
